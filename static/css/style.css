@@ -1,0 +1,45 @@
+body {
+  margin: 0px;
+}
+
+.custom-iframe-height {
+  height: auto !important;
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .custom-iframe-height {
+    width: 450px;
+  }
+}
+
+@media (main-width: 600px) {
+  .container {
+    margin: 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .custom-iframe-height {
+    height: 350px;
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    margin: 0 !important;
+  }
+}
+
+.container-fluid {
+  padding-bottom: 50px;
+}
+
+.card {
+  border-radius: 1px !important;
+}
+@media (min-width: 768px) {
+  .col#image {
+    display: none !important;
+  }
+}
